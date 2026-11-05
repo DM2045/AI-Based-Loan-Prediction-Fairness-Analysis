@@ -3,7 +3,7 @@
 
 Justifi is an AI-assisted loan prediction platform that combines **Machine Learning, Explainable AI, and Fairness Evaluation** to make loan assessments more transparent and interpretable. It predicts loan approval probabilities, explains model decisions, generates AI-powered insights, and supports human-led application reviews.
 
-## 📍Key Features
+## Key Features
 
 - **Loan Prediction:** XGBoost-powered loan approval probability estimation.
 - **Explainable AI:** SHAP-based global feature importance and individual prediction explanations.
@@ -11,7 +11,7 @@ Justifi is an AI-assisted loan prediction platform that combines **Machine Learn
 - **Fairness Evaluation:** Fairlearn metrics — Demographic Parity Difference and Equalized Odds Difference.
 - **Interactive Dashboard:** Model performance metrics, CSV bulk analysis (up to 200 applicants), application history, and Supabase-powered authentication and manual review workflows.
 
-## 📍Tech Stack
+## Tech Stack
 
 | Category | Technologies |
 |---|---|
@@ -28,7 +28,7 @@ Justifi is an AI-assisted loan prediction platform that combines **Machine Learn
 | Deployment | Render |
 | Runtime & Package Management | Node.js, npm, pip |
 
-## 📍How It Works
+## How It Works
 
 1. Applicant submits financial and loan-related details.
 2. FastAPI processes the request and the XGBoost model generates an approval probability.
@@ -36,21 +36,21 @@ Justifi is an AI-assisted loan prediction platform that combines **Machine Learn
 4. Groq converts model insights into human-readable explanations.
 5. Results are presented through the dashboard, with an option to submit applications for manual review.
 
-## 📍Model Evaluation
+## Model Evaluation
 
 - **Performance:** Accuracy, Precision, Recall, F1-score, ROC-AUC and Confusion Matrix.
 - **Fairness:** Demographic Parity Difference and Equalized Odds Difference.
 - **Explainability:** Global and local SHAP feature contributions.
 - **Training:** 80:20 train-test split with a fixed random seed.
 
-## 📍Security & Transparency
+## Security & Transparency
 
 - Supabase Authentication and Row Level Security (RLS) for manual review access.
 - Server-side handling of the Groq API key.
 - Browser-local application history and Supabase-stored manual review records.
 - Predictions are estimates, not guaranteed lender decisions. Fairness metrics are evaluation indicators, not proof of bias-free outcomes.
 
-## 📍Local Setup
+## Local Setup
 
 **Backend**
 ```bash
