@@ -1,5 +1,5 @@
 # Loan-Decision-App
-# Justifi - AI-Powered Loan Intelligence
+# Justifi- AI Powered Loan Intelligence
 
 Justifi is an AI-assisted loan prediction platform that combines **Machine Learning, Explainable AI, and Fairness Evaluation** to make loan assessments more transparent and interpretable. It predicts loan approval probabilities, explains model decisions, generates AI-powered insights, and supports human-led application reviews.
 
